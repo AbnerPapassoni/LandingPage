@@ -61,18 +61,32 @@ h2{
 #depoimentos{
     background-color: black;
     color: white;
-    display:flex;
-    justify-content: space-around;
+    display: flex;
+    justify-content: space-evenly;
     padding-bottom: 10px;
 }
 
 #depoimentos img{
+    opacity: 0.5;
+    cursor: pointer;
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 50px;
     height: 50px;
     width: 50px;
     background-color: black;
+}
+
+#depos{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.oculta{
+    display:none;
 }
 
 #cta{

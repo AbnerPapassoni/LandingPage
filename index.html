@@ -14,6 +14,7 @@
         href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Landing Page</title>
 </head>
 
@@ -50,19 +51,37 @@
                 Depoimentos
             </h2>
             <div id="depoimentos">
-                <div class="itemDepoimento">
-                    <img src="usuario.png" id="depo1"></img>
-                    <cite>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, ea.</cite>
+                <img src="usuario.png" id="foto1" onclick="mostraDepo('depo1','depo2','depo3','foto1','foto2','foto3')"></img>
+                <img src="usuario.png" id="foto2" onclick="mostraDepo('depo2','depo3','depo1','foto2','foto3','foto1')"></img>
+                <img src="usuario.png" id="foto3" onclick="mostraDepo('depo3','depo2','depo1','foto3','foto1','foto2')"></img>
+            </div>
+            <div id="depos">
+                <div id="depo1" class="oculta">
+                    <cite>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos sapiente tenetur ducimus
+                        natus velit provident blanditiis nam enim, corporis optio nesciunt deleniti, quam eos vitae,
+                        earum
+                        necessitatibus odio. Quia nam molestiae tempore distinctio, impedit, quo voluptatum ad atque,
+                        cum
+                        iure ipsum? Nemo ut voluptas odio asperiores explicabo maxime quod aut.</cite>
                     <p>Usuario 1</p>
                 </div>
-                <div class="itemDepoimento">
-                    <img src="usuario.png" id="depo2"></img>
-                    <cite>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, ea.</cite>
+                <div id="depo2" class="oculta">
+                    <cite>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt deserunt, a quae possimus
+                        sapiente hic consequuntur ducimus, ratione temporibus iste odit architecto nobis, in nulla quas
+                        adipisci numquam ab. Nam repellendus, asperiores perspiciatis quibusdam aperiam praesentium
+                        quasi
+                        cupiditate odio optio, exercitationem modi recusandae omnis natus, delectus tenetur. Distinctio,
+                        a
+                        voluptatum.</cite>
                     <p>Usuario 2</p>
                 </div>
-                <div class="itemDepoimento">
-                    <img src="usuario.png" id="depo3"></img>
-                    <cite>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, ea.</cite>
+                <div id="depo3" class="oculta">
+                    <cite>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis architecto harum aperiam, at
+                        quidem
+                        vel maiores id beatae deserunt? Non excepturi quidem ipsam pariatur vitae tempore officiis cum,
+                        minima inventore eaque porro quam optio a? Eum minus nostrum aspernatur qui dicta nisi, rerum
+                        ipsum
+                        ratione. Placeat corrupti dolore fugiat porro?</cite>
                     <p>Usuario 3</p>
                 </div>
             </div>
