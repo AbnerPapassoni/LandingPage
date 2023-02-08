@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <header id="titulo">
+        <h1>
+            Landing Page
+        </h1>
+    </header>
+
+    <main>
+        <div id="video">
+            <iframe class="responsiveVideo" width="560" height="315" src="https://www.youtube.com/embed/8JMMjCyyznI"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <div id="vantagem">
+            <h2 id="tituloVantagens">
+                Vantagens
+            </h2>
+            <ul>
+                <li class="vantagens">Lorem, ipsum dolor.</li>
+                <li class="vantagens">Lorem, ipsum dolor.</li>
+                <li class="vantagens">Lorem, ipsum dolor.</li>
+                <li class="vantagens">Lorem, ipsum dolor.</li>
+                <li class="vantagens">Lorem, ipsum dolor.</li>
+            </ul>
+        </div>
+
+        <div id="tituloDepoimentos">
+            <h2>
+                Depoimentos
+            </h2>
+            <div id="depoimentos">
+                <div class="itemDepoimento">
+                    <img src="usuario.png" id="depo1"></img>
+                    <cite>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, ea.</cite>
+                    <p>Usuario 1</p>
+                </div>
+                <div class="itemDepoimento">
+                    <img src="usuario.png" id="depo2"></img>
+                    <cite>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, ea.</cite>
+                    <p>Usuario 2</p>
+                </div>
+                <div class="itemDepoimento">
+                    <img src="usuario.png" id="depo3"></img>
+                    <cite>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, ea.</cite>
+                    <p>Usuario 3</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="cta">
+            <h2 id="tituloCta">
+                Venha fazer parte!
+            </h2>
+            <div id="formulario">
+                <form action="index.html" method="post">
+                    <label>Nome:</label>
+                    <input type="text" name="txtNome" maxlength="100" placeholder="Exemplo Nome">
+
+                    <label>E-mail:</label>
+                    <input type="email" name="txtEmail" maxlength="50" placeholder="exemplo@email.com">
+
+                    <label>Whatsapp:</label>
+                    <input type="tel" name="txtTel" maxlength="20" placeholder="(11)99999-9999">
+                    <button type="button">Enviar Dados</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer id="politicas">
+        <div id="itemPoliticas">
+            <a href="https://google.com">
+                <p class="politica">Politica de Privacidade</p>
+            </a>
+            <a href="https://google.com">
+                <p class="politica">Procedimentos de Cancelamento</p>
+            </a>
+            <a href="https://google.com">
+                <p class="politica">Termos de Uso</p>
+            </a>
+        </div>
+        <div id="redesSociais">
+            <h3>
+                Siga-nos nas redes sociais
+            </h3>
+            <p><a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>@ExemploInsta
+            </p>
+            <p><a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>@ExemploYoutube</p>
+            <p><a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>@ExemploTwitter</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

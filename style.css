@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#titulo{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px 0px 10px 0px;
+    font-weight: 600;
+}
+h1{
+    background-color: black;
+}
+
+main{
+    background-color: rgb(48, 48, 48);
+    padding-left:10%;
+    padding-right:10%;
+}
+
+#video{
+    border: 5px solid white;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+.responsiveVideo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#vantagem {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+}
+li{
+    background-color: black;
+    list-style: none;
+}
+
+h2{
+    background-color: black;
+    color: white;
+}
+
+#tituloDepoimentos{
+    margin-top: 10px;
+}
+
+#depoimentos{
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+
+#depoimentos img{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+
+#cta{
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 10px;
+}
+
+#formulario{
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#tituloCta{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    padding-bottom: 1px;
+}
+
+label{
+    background-color: black;
+    color: white;
+    display:block;
+    font-size: small;
+}
+input{
+    background-color: black;
+    color: white;
+    outline: none;
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+button{
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+footer{
+    font-size: small;
+    padding-top: 10px;
+    background-color: black;
+    color: white;
+}
+
+#politicas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    font-weight: 700;
+}
