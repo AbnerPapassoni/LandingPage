@@ -12,3 +12,18 @@ function mostraDepo(show,hide1,hide2,highlight,out1,out2){
         document.getElementById(highlight).style = "opacity:0.5;";
     }   
 }
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction(){
+    if(document.documentElement.scrollTop > 10){
+        document.getElementById("btnTop").style.display = "block";
+    }
+    else{
+        document.getElementById("btnTop").style.display = "none";
+    }
+}
+
+function backTop(){
+    document.documentElement.scrollTop = 0;
+}

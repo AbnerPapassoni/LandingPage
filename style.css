@@ -136,6 +136,20 @@ button{
     outline: none;
 }
 
+#btnTop{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    color: darkgrey;
+    cursor: pointer;
+}
+
+#btnTop:hover{
+    color: white;
+}
+
 footer{
     font-size: small;
     padding-top: 10px;
